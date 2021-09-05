@@ -2,8 +2,8 @@ class Monster {
   constructor(x,y,r)
 	{
 		var options = { 
-			density: 5, 
-			frictionAir: 0,
+			density: 1, 
+			frictionAir: 1,
 			isStatic: true
 		};
 		this.x=x;
