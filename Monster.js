@@ -20,7 +20,7 @@ class Monster {
 			
 			var monsterPos=this.body.position;		
 			push()
-			translate(monsterPos.x, monsterPos.y-100);
+			translate(monsterPos.x+150, monsterPos.y-100);
 			rectMode(CENTER)
 			fill(255,0,255)
 			imageMode(CENTER);
